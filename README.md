@@ -13,7 +13,7 @@
 ![Check & fix styling](https://github.com/JustSteveKing/php-sdk/workflows/Code%20style/badge.svg)
 [![Total Downloads][badge-downloads]][downloads]
 
-[badge-release]: https://img.shields.io/packagist/v/juststeveking/php-sdk.svg?style=flat-square&label=release
+[badge-release]: https://img.shields.io/packagist/v/juststeveking/php-sdk.svg?style=flat-snoquare&label=release
 [badge-php]: https://img.shields.io/packagist/php-v/juststeveking/php-sdk.svg?style=flat-square
 [badge-downloads]: https://img.shields.io/packagist/dt/juststeveking/php-sdk.svg?style=flat-square&colorB=mediumvioletred
 
@@ -87,7 +87,7 @@ $sdk->addResource('ideas', new class extends AbstractResource {
 });
 ```
 
-The resource we just added will not be accessible by its key "ideas" to forward calls to the resource:
+The resource we just added will now be accessible by its key "ideas" to forward calls to the resource:
 
 ```php
 $sdk->ideas->get();
